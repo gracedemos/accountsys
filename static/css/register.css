@@ -1,0 +1,62 @@
+h1 {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	font-weight: 400;
+}
+body {
+	background-color: #f5f5f5;
+}
+#userbox {
+	padding: 6px 10px;
+	margin: 25px auto;
+	display: block;
+	border-radius: 4px;
+	border: 1px solid grey;
+}
+#namebox {
+	padding: 6px 10px;
+	margin: 25px auto;
+	display: block;
+	border-radius: 4px;
+	border: 1px solid grey;
+}
+#passbox {
+	padding: 6px 10px;
+	margin: 25px auto;
+	display: block;
+	border-radius: 4px;
+	border: 1px solid grey;
+}
+#cen {
+	text-align: center;
+}
+#submitbox {
+	background-color: #008CBA;
+	border: none;
+	color: #FFFFFF;
+	padding: 6px 10px;
+	border-radius: 4px;
+}
+#submitbox:hover {
+	background-color: #006282;
+}
+#total {
+	border: 3px solid grey;
+	border-radius: 4px;
+	margin: 10% auto;
+	width: 200px;
+	padding: 30px;
+	background-color: #ffffff;
+	text-align: center;
+}
+#sig {
+	margin: 25px auto;
+}
+a {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}

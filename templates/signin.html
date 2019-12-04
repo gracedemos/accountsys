@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign In</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/signin.css') }}">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="total">
+			<h1>Sign In</h1>
+			<form action="/signin/submit" method="post">
+				<div id="cen">
+					<input type="text" name="username" id="userbox" placeholder="Username">
+					<input type="password" name="password" id="passbox" placeholder="Password">
+					<input type="submit" id="submitbox" value="Sign In">
+				</div>
+			</form>
+			<div id="reg">
+				<p>New user? <a href="/register">Register</a></p>
+			</div>
+		</div>
+	</body>
+</html>

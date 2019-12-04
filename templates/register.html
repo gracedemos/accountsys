@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/register.css') }}">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="total">
+			<h1>Register</h1>
+			<form action="/register/submit" method="post">
+				<div id="cen">
+					<input type="text" name="username" id="userbox" placeholder="Username">
+					<input type="text" name="name" id="namebox" placeholder="Full Name">
+					<input type="password" name="password" id="passbox" placeholder="Password">
+					<input type="submit" id="submitbox" value="Register">
+				</div>
+			</form>
+			<div id="sig">
+				<p>Already have an account? <a href="/signin">Sign In</a></p>
+			</div>
+		</div>
+	</body>
+</html>
